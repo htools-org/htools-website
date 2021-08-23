@@ -21,7 +21,7 @@
           <a
             :href="project.link"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
             class="block text-xl font-semibold text-gray-700 truncate"
           >
             <span class="text-sm font-normal text-gray-500"
@@ -32,12 +32,12 @@
           <a
             :href="project.link"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
             class="block text-sm text-gray-600 truncate hover:underline"
             >{{ project.link }}</a
           >
         </div>
-        <a :href="project.link" target="_blank" ref="noopener noreferrer">
+        <a :href="project.link" target="_blank" rel="noopener noreferrer">
           <div
             class="flex items-center justify-center h-32 mt-4 rounded"
             :class="project.colors"
