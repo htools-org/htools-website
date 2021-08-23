@@ -1,0 +1,41 @@
+{
+  "name": "htools-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Website for Handshake Tools.",
+  "license": "MIT",
+  "repository": "git://github.com/rithvikvibhu/htools-website.git",
+  "homepage": "https://github.com/rithvikvibhu/htools-website",
+  "bugs": {
+    "url": "https://github.com/rithvikvibhu/htools-website/issues"
+  },
+  "keywords": [
+    "hns",
+    "handshake"
+  ],
+  "author": "Rithvik Vibhu <rithvikvibhu@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.3.0",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.3.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.16.0",
+    "postcss": "^8.3.6",
+    "prettier": "~2.2.1",
+    "tailwindcss": "^2.2.7",
+    "vite": "^2.4.4"
+  }
+}
