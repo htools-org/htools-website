@@ -4,10 +4,10 @@
   "private": true,
   "description": "Website for Handshake Tools.",
   "license": "MIT",
-  "repository": "git://github.com/rithvikvibhu/htools-website.git",
-  "homepage": "https://github.com/rithvikvibhu/htools-website",
+  "repository": "git://github.com/htools-org/htools-website.git",
+  "homepage": "https://github.com/htools-org/htools-website",
   "bugs": {
-    "url": "https://github.com/rithvikvibhu/htools-website/issues"
+    "url": "https://github.com/htools-org/htools-website/issues"
   },
   "keywords": [
     "hns",
