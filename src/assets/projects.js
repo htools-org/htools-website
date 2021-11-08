@@ -15,4 +15,11 @@ export default [
     icons: ["user", "fingerprint", "id-card"],
     colors: "bg-gradient-to-r from-purple-900 to-indigo-500",
   },
+  {
+    name: "Airdrop Claim Check",
+    description: "A tool to check if and when your airdrop was claimed.",
+    link: "https://airdropcheck.htools.work",
+    icons: ["percentage", "users", "history"],
+    colors: "bg-gradient-to-r from-[#ea580c] to-yellow-600",
+  },
 ];
