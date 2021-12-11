@@ -11,6 +11,14 @@ import {
   faPercentage,
   faUsers,
   faHistory,
+  faNetworkWired,
+  faDna,
+  faCut,
+  faRss,
+  faBookOpen,
+  faPen,
+  faLink,
+  faSignature,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
@@ -26,7 +34,15 @@ library.add(
   faIdCard,
   faPercentage,
   faUsers,
-  faHistory
+  faHistory,
+  faNetworkWired,
+  faDna,
+  faCut,
+  faRss,
+  faBookOpen,
+  faPen,
+  faLink,
+  faSignature
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

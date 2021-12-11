@@ -41,7 +41,7 @@
               >
             </div>
             <div
-              class="flex items-center justify-center h-32 mt-4 text-5xl font-black text-gray-500 rounded bg-gradient-to-r from-[#f3f4f6] to-[#d1d5db]"
+              class="flex items-center justify-center h-24 mt-4 text-5xl font-black text-gray-500 rounded bg-gradient-to-r from-[#f3f4f6] to-[#d1d5db]"
             >
               ?
             </div>

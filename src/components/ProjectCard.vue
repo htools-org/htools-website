@@ -20,7 +20,7 @@
     </div>
     <a :href="project.link" target="_blank" rel="noopener noreferrer">
       <div
-        class="flex items-center justify-center h-32 mt-4 rounded"
+        class="flex items-center justify-center h-24 mt-4 rounded"
         :class="project.colors"
       >
         <font-awesome-icon

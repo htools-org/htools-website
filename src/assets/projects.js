@@ -22,4 +22,28 @@ export default [
     icons: ["percentage", "users", "history"],
     colors: "bg-gradient-to-r from-[#ea580c] to-yellow-600",
   },
+  {
+    name: "Wireshark Dissector",
+    description:
+      "A dissector for Wireshark written in Lua that decodes Handshake packets.",
+    link: "https://github.com/htools-org/wireshark-handshake-protocol",
+    icons: ["network-wired", "dna", "cut"],
+    colors: "bg-gradient-to-r from-[#D707BC] to-[#2172BC]",
+  },
+  {
+    name: "HTools Blog",
+    description:
+      "Blog with guides, articles and how-tos for anything related to Handshake.",
+    link: "https://blog.htools.work",
+    icons: ["rss", "book-open", "pen"],
+    colors: "bg-gradient-to-r from-[#616161] to-[#5da29e]",
+  },
+  {
+    name: "Certificate Authority",
+    description:
+      "An ACME server for use with DANE on Handshake domains. Set up HTTPS like you would with LetsEncrypt.",
+    link: "https://acme.htools.work",
+    icons: ["link", "key", "signature"],
+    colors: "bg-gradient-to-r from-[#a73737] to-[#7a2828]",
+  },
 ];
