@@ -19,6 +19,9 @@ import {
   faPen,
   faLink,
   faSignature,
+  faTimes,
+  faSearch,
+  faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
@@ -42,7 +45,10 @@ library.add(
   faBookOpen,
   faPen,
   faLink,
-  faSignature
+  faSignature,
+  faTimes,
+  faSearch,
+  faCheck
 );
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

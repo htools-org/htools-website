@@ -46,4 +46,12 @@ export default [
     icons: ["link", "key", "signature"],
     colors: "bg-gradient-to-r from-[#a73737] to-[#7a2828]",
   },
+  {
+    name: "HTools SiteCheck",
+    description:
+      "Test a handshake domain for issues with DNS, DNSSEC and DANE.",
+    link: "https://sitecheck.htools.work",
+    icons: ["times", "search", "check"],
+    colors: "bg-gradient-to-r from-[#6b7280] to-[#9ca3af]",
+  },
 ];
