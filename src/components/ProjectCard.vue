@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 bg-white border-4 border-gray-200 rounded-lg">
+  <div class="max-w-full p-4 overflow-hidden bg-white border-4 border-gray-200 rounded-lg">
     <div class="overflow-hidden">
       <a
         :href="project.link"

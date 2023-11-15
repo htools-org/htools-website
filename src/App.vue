@@ -13,7 +13,7 @@
       </h2>
       <section class="px-4 mt-12">
         <div
-          class="grid max-w-screen-lg gap-4 mx-auto bg-blu-50 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          class="grid max-w-screen-lg gap-4 mx-auto sm:gap-6 sm:grid-cols-2 lg:grid-cols-3"
         >
           <!-- Project Cards -->
           <ProjectCard

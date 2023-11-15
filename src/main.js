@@ -21,6 +21,18 @@ import {
   faSignature,
   faTimes,
   faSearch,
+  faReceipt,
+  faShield,
+  faStamp,
+  faGlobe,
+  faCircleNodes,
+  faChartPie,
+  faCodeFork,
+  faEye,
+  faListCheck,
+  faCalendar,
+  faStopwatch,
+  faTimeline,
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -48,6 +60,18 @@ library.add(
   faSignature,
   faTimes,
   faSearch,
+  faReceipt,
+  faShield,
+  faStamp,
+  faGlobe,
+  faCircleNodes,
+  faChartPie,
+  faCodeFork,
+  faEye,
+  faListCheck,
+  faCalendar,
+  faStopwatch,
+  faTimeline,
   faCheck
 );
 
