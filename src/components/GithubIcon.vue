@@ -1,5 +1,10 @@
 <template>
-  <a href="https://github.com/htools-org/htools-website">
+  <a
+    href="https://github.com/htools-org/htools-website"
+    target="_blank"
+    rel="noopener noreferrer"
+    data-umami-event="header-github-link-click"
+  >
     <svg
       class="w-6 h-6"
       xmlns="http://www.w3.org/2000/svg"

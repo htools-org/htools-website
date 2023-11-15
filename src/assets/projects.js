@@ -78,14 +78,14 @@ export default [
   {
     name: "Fork Watch",
     description: "Track BIP-9 signalling for Handshake forks.",
-    link: "https://github.com/htools-org/fork-explorer",
+    link: "https://forkwatch.htools.work",
     icons: ["code-fork", "eye", "list-check"],
     colors: "bg-gradient-to-r from-violet-500 to-orange-400",
   },
   {
     name: "HTools Calendar",
     description: "A countdown (and future calendar) for Handshake events.",
-    link: "https://github.com/htools-org/htools-calendar",
+    link: "https://calendar.htools.work",
     icons: ["calendar", "stopwatch", "timeline"],
     colors: "bg-gradient-to-r from-indigo-900 via-indigo-400 to-indigo-900",
   },

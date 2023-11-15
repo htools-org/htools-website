@@ -6,6 +6,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="block text-xl font-semibold text-gray-700 truncate"
+        :data-umami-event="'project-click:'+project.name"
       >
         <span class="text-sm font-normal text-gray-500">#{{ idx + 1 }}</span>
         {{ project.name }}
@@ -15,10 +16,16 @@
         target="_blank"
         rel="noopener noreferrer"
         class="block text-sm text-gray-600 truncate hover:underline"
+        :data-umami-event="'project-click:'+project.name"
         >{{ project.link }}</a
       >
     </div>
-    <a :href="project.link" target="_blank" rel="noopener noreferrer">
+    <a
+      :href="project.link"
+      target="_blank"
+      rel="noopener noreferrer"
+      :data-umami-event="'project-click:'+project.name"
+    >
       <div
         class="flex items-center justify-center h-24 mt-4 rounded"
         :class="project.colors"
